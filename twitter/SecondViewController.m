@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad
 {
+    NSURLRequest* req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://yujiiin.com/twitter/tweet.html"]];
+    [webView loadRequest:req];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

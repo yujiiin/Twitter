@@ -16,6 +16,20 @@
 
 - (void)viewDidLoad
 {
+    NSURLRequest* req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://yujiiin.com/twitter/timeline.php"]];
+    [webView loadRequest:req];
+   /*
+    UIImage *tabIcon2 = [UIImage imageNamed:@"earth.png"];
+    UIImage *tabIcon3 = [UIImage imageNamed:@"chart.png"];
+    
+    UITabBar *tabBar = self.tabBarController.tabBar;
+    UITabBarItem *item2 = [tabBar.items objectAtIndex:2];
+    UITabBarItem *item3 = [tabBar.items objectAtIndex:3];
+
+    item2.selectedImage = tabIcon2;
+    item3.selectedImage = tabIcon3;
+    */
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

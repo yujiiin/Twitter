@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ThirdViewController.h
 //  twitter
 //
 //  Created by Yuji Shimizu on 5/3/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController{
+@interface ThirdViewController : UIViewController{
     IBOutlet UIWebView *webView;
 }
 

@@ -22,6 +22,10 @@
 		21BC8F3119159DC1007E46E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BC8F1019159DC1007E46E3 /* UIKit.framework */; };
 		21BC8F3919159DC2007E46E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21BC8F3719159DC2007E46E3 /* InfoPlist.strings */; };
 		21BC8F3B19159DC2007E46E3 /* twitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC8F3A19159DC2007E46E3 /* twitterTests.m */; };
+		21BC8F461915E15B007E46E3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC8F451915E15B007E46E3 /* ThirdViewController.m */; };
+		21BC8F49191F0DD4007E46E3 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC8F48191F0DD4007E46E3 /* ForthViewController.m */; };
+		21BC8F4C191F1E3D007E46E3 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 21BC8F4A191F1E3D007E46E3 /* chart.png */; };
+		21BC8F4D191F1E3D007E46E3 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 21BC8F4B191F1E3D007E46E3 /* earth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,12 @@
 		21BC8F3619159DC1007E46E3 /* twitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitterTests-Info.plist"; sourceTree = "<group>"; };
 		21BC8F3819159DC2007E46E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21BC8F3A19159DC2007E46E3 /* twitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterTests.m; sourceTree = "<group>"; };
+		21BC8F441915E15B007E46E3 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		21BC8F451915E15B007E46E3 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
+		21BC8F47191F0DD4007E46E3 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForthViewController.h; path = ../ForthViewController.h; sourceTree = "<group>"; };
+		21BC8F48191F0DD4007E46E3 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForthViewController.m; path = ../ForthViewController.m; sourceTree = "<group>"; };
+		21BC8F4A191F1E3D007E46E3 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart.png; sourceTree = "<group>"; };
+		21BC8F4B191F1E3D007E46E3 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,12 @@
 				21BC8F2219159DC1007E46E3 /* FirstViewController.m */,
 				21BC8F2419159DC1007E46E3 /* SecondViewController.h */,
 				21BC8F2519159DC1007E46E3 /* SecondViewController.m */,
+				21BC8F441915E15B007E46E3 /* ThirdViewController.h */,
+				21BC8F451915E15B007E46E3 /* ThirdViewController.m */,
+				21BC8F47191F0DD4007E46E3 /* ForthViewController.h */,
+				21BC8F48191F0DD4007E46E3 /* ForthViewController.m */,
+				21BC8F4A191F1E3D007E46E3 /* chart.png */,
+				21BC8F4B191F1E3D007E46E3 /* earth.png */,
 				21BC8F2719159DC1007E46E3 /* Images.xcassets */,
 				21BC8F1319159DC1007E46E3 /* Supporting Files */,
 			);
@@ -234,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BC8F2819159DC1007E46E3 /* Images.xcassets in Resources */,
+				21BC8F4D191F1E3D007E46E3 /* earth.png in Resources */,
 				21BC8F1719159DC1007E46E3 /* InfoPlist.strings in Resources */,
+				21BC8F4C191F1E3D007E46E3 /* chart.png in Resources */,
 				21BC8F2019159DC1007E46E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BC8F2619159DC1007E46E3 /* SecondViewController.m in Sources */,
+				21BC8F461915E15B007E46E3 /* ThirdViewController.m in Sources */,
+				21BC8F49191F0DD4007E46E3 /* ForthViewController.m in Sources */,
 				21BC8F1D19159DC1007E46E3 /* AppDelegate.m in Sources */,
 				21BC8F2319159DC1007E46E3 /* FirstViewController.m in Sources */,
 				21BC8F1919159DC1007E46E3 /* main.m in Sources */,
